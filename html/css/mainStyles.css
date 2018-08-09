@@ -1,4 +1,14 @@
-h1.mainPageHeader {
-  color:purple;
-  font-family: cursive;
+  body {
+    background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 6%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+    font-family: serif;
+  }
+
+
+  h1.mainPageHeader {
+  font-size: 72px;
+  font-family: "Trattatello";
+  background: -webkit-linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* safari5.1+,chrome10+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: serif;
 }
